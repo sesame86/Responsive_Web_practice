@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>메뉴 패턴</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1">
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			width: 960px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.menu {
+			width: 260px;
+			float: left;
+		}
+		.section {
+			width: 700px;
+			float: right;
+		}
+		li {
+			list-style: none;
+		}
+
+		@media screen and (max-width: 767px){
+			/*모바일 디바이스에서는 모두 해제*/
+			body {
+				width: auto;
+			}
+			.menu {
+				width: auto;
+				float: none;
+			}
+			.section {
+				width: auto;
+				float: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="menu">
+		<ul>
+			<li>menu</li>
+			<li>coffee</li>
+			<li>tea</li>
+			<li>dessert</li>
+		</ul>
+	</div>
+	<div class="section">
+		<h1>Responsive Web Practice</h1>
+		<p>Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web Practice Responsive Web PracticeResponsive Web Practice Responsive Web PracticeResponsive Web Practice Responsive Web Practice Responsive Web Practice</p>
+	</div>
+	
+</body>
+</html>
